@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DAMEP_ErickP_ThaliaV_SandroW</string>
+    <string name="txt_titulo">Censo DAM</string>
+    <string name="txt_Apnom">Apellidos y Nombre</string>
+    <string name="txt_Correo">Correo Electrónico</string>
+    <string name="txt_Clave">Clave</string>
+    <string name="txt_Telef">Telefono de contacto</string>
+    <string name="txt_Naci">Fecha de Nacimiento</string>
+    <string name="txt_Hnaci">Hora de Nacimiento</string>
+    <string name="txt_Zona">Zona de residencia</string>
+    <string name="txt_Per">¿Cuántas personas viven en la vivienda?</string>
+    <string name="txt_Ing">ingreso promedio de la familia</string>
+    <string name="txt_Op">¿Que opina sobre los bonos otorgados por el gobierno?</string>
+    <string name="txt_Mascota">Mascotas que viven en casa</string>
+    <string name="radio_Urbano">Urbano</string>
+    <string name="radio_Rural">Rural</string>
+    <string name="Resp_Apnom" />
+    <string name="resp_Correo" />
+    <string name="resp_Clave" />
+    <string name="resp_Telef" />
+    <string name="resp_Fecha" />
+    <string name="resp_Hnaci" />
+    <string name="resp_Personas" />
+    <string name="resp_Ingreso" />
+    <string name="resp_Opinion" />
+    <string name="check_Gato">Gato</string>
+    <string name="check_Perro">Perro</string>
+    <string name="check_Pollo">Pollo</string>
+    <string name="check_Pato">Pato</string>
+    <string name="check_Otro">Otro</string>
+    <string name="button_Enviar">Enviar</string>
+</resources>
