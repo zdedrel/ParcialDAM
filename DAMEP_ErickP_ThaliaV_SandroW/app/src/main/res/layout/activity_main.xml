@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:hapticFeedbackEnabled="true"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -48,7 +49,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
         android:text="@string/txt_titulo"
+        android:textColor="#0762AA"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -62,7 +66,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Apnom"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
 
@@ -71,7 +78,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Correo"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="@+id/txt_Apnom"
         app:layout_constraintTop_toBottomOf="@+id/txt_Apnom" />
 
@@ -80,7 +90,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Clave"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="@+id/txtCorreo"
         app:layout_constraintTop_toBottomOf="@+id/txtCorreo" />
 
@@ -89,7 +102,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Telef"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="@+id/txtClave"
         app:layout_constraintTop_toBottomOf="@+id/txtClave" />
 
@@ -98,7 +114,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Naci"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="@+id/txtTelef"
         app:layout_constraintTop_toBottomOf="@+id/txtTelef" />
 
@@ -107,7 +126,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Hnaci"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="@+id/txtNaci"
         app:layout_constraintTop_toBottomOf="@+id/txtNaci" />
 
@@ -116,7 +138,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Zona"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="@+id/txtHnaci"
         app:layout_constraintTop_toBottomOf="@+id/txtHnaci" />
 
@@ -125,7 +150,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Per"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="@+id/txtZona"
         app:layout_constraintTop_toBottomOf="@+id/txtZona" />
 
@@ -134,7 +162,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Ing"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="@+id/txtPer"
         app:layout_constraintTop_toBottomOf="@+id/txtPer" />
 
@@ -143,7 +174,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Op"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="@+id/txtIng"
         app:layout_constraintTop_toBottomOf="@+id/txtIng" />
 
@@ -152,7 +186,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:background="#AD03A9F4"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/txt_Mascota"
+        android:textColor="#0B62A6"
         app:layout_constraintStart_toStartOf="@+id/txtOp"
         app:layout_constraintTop_toBottomOf="@+id/txtOp" />
 
@@ -161,6 +198,7 @@
         android:layout_width="202dp"
         android:layout_height="34dp"
         android:layout_marginEnd="20dp"
+        android:background="#0003A9F4"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/Resp_Apnom"
@@ -299,12 +337,22 @@
 
     <Button
         android:id="@+id/buttonEnviar"
-        android:layout_width="95dp"
-        android:layout_height="39dp"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
         android:layout_marginTop="90dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:backgroundTintMode="add"
+        android:drawableLeft="@drawable/baseline_send_24"
+        android:drawableTint="#EDE1E1"
+        android:foregroundTint="#F6EEEE"
         android:text="@string/button_Enviar"
+        android:textColorHighlight="#ECDCDC"
+        android:textColorHint="#E6DDDD"
+        android:textColorLink="#553737"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/respOpinion" />
+        app:layout_constraintTop_toBottomOf="@+id/respOpinion"
+        app:rippleColor="#FFFFFF" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
